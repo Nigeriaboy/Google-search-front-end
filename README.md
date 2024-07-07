@@ -1,2 +1,2 @@
 # Google-search-front-end
-Create a google like front end
+Creating a google like front end
