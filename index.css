@@ -83,20 +83,20 @@ a[href="image.html"]{
 /* Mobile styles */
 @media (max-width: 500px) {
     .search {
-        width: 350px; /* Full width on small screens */
-        height: 35px;
+        width: 280px; 
+        height: 25px;
+        font-size: 10px;
     }
     
     .sbmt > input{
-        padding: 7px 14px;
-        font-size: 12px;
+        padding: 7px 7px;
+        font-size: 10px;
     }
 
     #links > a{
-        font-size: 9px;
+        font-size: 7px;
     }
     #logo > p{
-        font-size: 45px;
+        font-size: 30px;
     }
-
 }
