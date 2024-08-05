@@ -31,7 +31,7 @@ a[href="image.html"]{
 }
 
 #logo > p{
-    font-size: 35px;
+    font-size: 45px;
     margin: auto;
     font-weight: bold;
 }
@@ -77,8 +77,8 @@ a[href="image.html"]{
 
 .search{
     margin-top: 20px;
-    width: 350px;
-    height: 40px;
+    width: 570px;
+    height: 45px;
     border: 1px solid #dadce0;;
     border-radius: 25px;
     outline: none;
@@ -107,9 +107,11 @@ button{
 /* Mobile styles */
 @media (max-width: 500px) {
     .search {
-        width: 280px; 
-        height: 25px;
+        max-width: 300px; 
+        height: 30px;
         font-size: 10px;
+        padding-left: 10px;
+        padding-top: 8px;
     }
     
     .sbmt > input{
@@ -123,6 +125,13 @@ button{
     #logo > p{
         font-size: 30px;
     }
+    .icon{
+        position: absolute;
+        right: 40px;
+        top: 25px;
+        visibility: visible;
+        cursor: pointer;
 
+        }
 
 }
